@@ -4,7 +4,6 @@
      height: auto;
      padding: 0px;
      margin: 0px;
-     font-size: 16px;
      font-family: Lato, sans-serif;
  }
 
@@ -70,17 +69,8 @@
  #nav7,
  #nav8 {
      font-family: Lato, sans-serif;
-     font-size: .75rem;
+     font-size: 0.86em;
      font-weight: 600;
-     letter-spacing: .05em;
-     text-transform: uppercase;
- }
-
- #nav2,
- #nav3 {
-     font-family: Lato, sans-serif;
-     font-size: .75rem;
-     font-weight: 500;
      letter-spacing: .05em;
      text-transform: uppercase;
  }
@@ -130,6 +120,11 @@
      line-height: 45px;
      margin: 0px;
      padding: 0px;
+     font-family: Lato, sans-serif;
+     font-size: 0.86em;
+     font-weight: 500;
+     letter-spacing: .05em;
+     text-transform: uppercase;
  }
 
  .dorp_item a:nth-child(1) {
@@ -211,13 +206,67 @@
      background-color: #000;
  }
 
- /*h1*/
+ /*字体*/
 
  h1 {
      z-index: 1;
      font-size: 2.8em;
      font-family: Playfair Display, serif;
      font-weight: 800;
+ }
+
+ h2 {
+     font-family: Playfair Display, serif;
+     font-size: 1.875em;
+     font-weight: 600;
+     color: #151515;
+ }
+
+ h4 {
+     font-size: 1.47em;
+     font-family: Playfair Display, serif;
+     font-weight: 400;
+     line-height: 1.42857;
+     color: #151515;
+     margin-bottom: 20px;
+ }
+
+ p {
+     font-size: 1.4em;
+     line-height: 1.5em;
+     color: #151515;
+ }
+
+ span {
+     color: #777777;
+     line-height: 1.5em;
+     font-size: 1.08em;
+     font-family: Lato, sans-serif;
+ }
+
+ time {
+     font-size: 0.857em;
+     font-family: Lato, sans-serif;
+     font-weight: 700;
+     letter-spacing: .05em;
+     text-transform: uppercase;
+     color: #f5a637;
+ }
+
+ a {
+     cursor: pointer;
+     text-decoration: none;
+ }
+
+ /*按钮*/
+
+ button {
+     font-family: Lato, sans-serif;
+     line-height: 1.25em;
+     letter-spacing: .05em;
+     text-transform: uppercase;
+     font-size: 0.875em;
+     font-weight: 600;
  }
 
  /********************************************************************************/
@@ -287,7 +336,7 @@
      line-height: 50px;
      margin-top: 40px;
      text-transform: uppercase;
-     font-size: 0.75em;
+     font-size: 0.875em;
      font-weight: 600;
  }
 
@@ -309,7 +358,7 @@
  #module33 {
      width: 100%;
      text-align: center;
-     padding: 100px 0px;
+     padding: 100px 0px 60px;
  }
 
  /*/////////////////////////////////////////////*/
@@ -328,7 +377,7 @@
  a.activation {
      text-decoration: none;
      font-family: Lato, sans-serif;
-     font-size: .75rem;
+     font-size: 0.857em;
      font-weight: 900;
      letter-spacing: .05em;
      text-transform: uppercase;
@@ -371,7 +420,7 @@
  #module35 {
      width: 100%;
      text-align: center;
-     padding: 100px 0px 30px;
+     padding: 60px 0px 30px;
  }
 
  /*/////////////////////////////////////*/
@@ -387,6 +436,7 @@
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     text-align: center;
  }
 
  #reserveATable {
@@ -397,6 +447,9 @@
      border: 1px solid #f5a637;
      color: #212529;
      margin-top: 10px;
+     text-transform: uppercase;
+     font-size: 0.875em;
+     font-weight: 600;
  }
 
  #reserveATable:hover {
@@ -469,7 +522,7 @@
  a.active2 {
      text-decoration: none;
      font-family: Lato, sans-serif;
-     font-size: .75rem;
+     font-size: 0.875em;
      font-weight: 900;
      letter-spacing: .05em;
      text-transform: uppercase;
@@ -512,7 +565,7 @@
  #module40 {
      width: 100%;
      text-align: center;
-     padding: 100px 0px 30px;
+     padding: 60px 0px 30px;
  }
 
  /*********************************************************************************/
@@ -530,6 +583,7 @@
      flex-direction: column;
      align-items: center;
      justify-content: center;
+     text-align: center;
      width: 100%;
      height: 567px;
  }
@@ -797,7 +851,7 @@
  a.active {
      text-decoration: none;
      font-family: Lato, sans-serif;
-     font-size: .75rem;
+     font-size: 0.857em;
      font-weight: 900;
      letter-spacing: .05em;
      text-transform: uppercase;
@@ -840,7 +894,7 @@
  #module11 {
      width: 100%;
      text-align: center;
-     padding: 100px 0px;
+     padding: 100px 0px 50px;
  }
 
  /*/////////////////////////////////*/
@@ -849,6 +903,7 @@
      width: 100%;
      text-align: center;
      margin-bottom: 50px;
+     margin-top: 100px;
  }
 
  /*////////////////////////////////*/
@@ -889,6 +944,13 @@
      top: 43px;
      left: 160px;
      color: #151515;
+     cursor: pointer;
+ }
+
+ .swiper-item span {
+     position: absolute;
+     bottom: 50px;
+     left: 160px;
      cursor: pointer;
  }
 
@@ -997,6 +1059,9 @@
      background-color: transparent;
      border: 1px solid #f5a637;
      outline: none;
+     text-transform: uppercase;
+     font-size: 0.875em;
+     font-weight: 600;
  }
 
  .panel-header button:hover {
@@ -1034,6 +1099,9 @@
      width: 170px;
      height: 50px;
      color: white;
+     text-transform: uppercase;
+     font-size: 0.875em;
+     font-weight: 600;
  }
 
  #details button:hover {
@@ -1091,6 +1159,9 @@
      border: 1px solid #f5a637;
      cursor: pointer;
      background-color: transparent;
+     text-transform: uppercase;
+     font-size: 0.875em;
+     font-weight: 600;
  }
 
  #subscribe:hover {
@@ -1206,11 +1277,11 @@
      outline: none;
      border: 1px solid #f5a637;
      font-family: Lato, sans-serif;
-     font-size: .75rem;
-     font-weight: 700;
+     text-transform: uppercase;
+     font-size: 0.875em;
+     font-weight: 600;
      line-height: 1.25rem;
      letter-spacing: .05em;
-     text-transform: uppercase;
  }
 
  #module22 button:hover,
@@ -1457,7 +1528,7 @@
      border: 1px solid #f5a637;
      text-transform: uppercase;
      cursor: pointer;
-     font-size: 0.75em;
+     font-size: 0.875em;
      font-weight: 600;
  }
 
@@ -1476,7 +1547,7 @@
      font-size: 18px;
  }
 
- #module32 #rgt a {
+ #module32 #rgt .icon {
      background-color: #f5a637;
      width: 25px;
      height: 25px;
@@ -1485,4 +1556,12 @@
      text-decoration: none;
      margin-right: 5px;
      text-align: center;
+ }
+
+ #module32 #rgt h4 {
+     font-size: 0.857em;
+     font-family: Lato, sans-serif;
+     font-weight: 900;
+     letter-spacing: .05em;
+     text-transform: uppercase;
  }
