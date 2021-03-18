@@ -430,7 +430,8 @@ footer {
     margin-top: 35px;
     text-transform: uppercase;
     font-size: 0.875em;
-    font-weight: 600;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
 }
 
 #module3 .contactUs:hover {
@@ -911,7 +912,8 @@ a.active {
     outline: none;
     text-transform: uppercase;
     font-size: 0.875em;
-    font-weight: 600;
+    font-weight: 700;
+    font-family: Lato, sans-serif;
 }
 
 .panel-header button:hover {
@@ -946,7 +948,8 @@ a.active {
     color: white;
     text-transform: uppercase;
     font-size: 0.875em;
-    font-weight: 600;
+    font-weight: 700;
+    font-family: Lato, sans-serif;
 }
 
 #details button:hover {
@@ -1002,7 +1005,8 @@ a.active {
     background-color: transparent;
     text-transform: uppercase;
     font-size: 0.875em;
-    font-weight: 600;
+    font-weight: 700;
+    font-family: Lato, sans-serif;
 }
 
 #subscribe:hover {
