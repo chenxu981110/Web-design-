@@ -1040,6 +1040,7 @@ a.active {
     position: relative;
     height: 28%;
     margin-bottom: 7%;
+    cursor: pointer;
 }
 
 .imgBox1 {
